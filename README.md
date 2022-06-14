@@ -1,10 +1,10 @@
 # TypeScript 基本の型
 
-## boolean 　真偽
+## boolean 真偽
 
 let bool: boolean = true;
 
-## number 　数値
+## number 数値
 
 let num: number = 0;
 
@@ -12,7 +12,7 @@ let num: number = 0;
 
 let str: string = "a";
 
-## Array 　配列
+## Array 配列
 
 let arr1: Array<number> = [0, 1, 2];
 let srr2: number[] = [0, 1, 2];
@@ -21,11 +21,11 @@ let srr2: number[] = [0, 1, 2];
 
 let tuple: [number, string] = [0, "a"];
 
-## any 　全て
+## any 全て
 
 let any1: any = false;
 
-## void 　返却値なし
+## void 返却値なし
 
 const funcA = (): void => {
 const test = "TEST";
